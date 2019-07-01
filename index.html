@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="styles.css" type="text/css" rel="stylesheet" />
+    <meta name="vieuwport" content= "width=device-width, initial-scale=1.0" /> 
+    <title>Gegroet</title>
+
+</head>
+<body>
+
+<h1>Voor wie er geen dobbelsteen heeft</h1>
+
+<p>Aan de hand van een formule heb ik een soort dobbelsteen gemaakt. Wanneer de pagina ververst wordt komt er een random getal tussen 0 en 7.</p>
+
+<p id="random"></p>
+
+<script>
+document.getElementById("random").innerHTML =
+Math.floor(Math.random() * 6) + 1;
+</script>
+
+</body>
+</html>
